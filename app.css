@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Cormorant", serif;
+}
+
+.main-header {
+  margin: 32px;
+}
+
+.main-header__title {
+  display: inline-block;
+  font-weight: 600;
+  margin: 0 32px 0 0;
+}
+
+.main-header__nav {
+  display: inline-block;
+}
+
+.main-header__nav-item {
+  display: inline-block;
+}
+
+.main-header__nav-item a {
+  color: #000;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 8px;
+}
+
+a.active-item {
+  border-bottom: 1px solid black;
+}
